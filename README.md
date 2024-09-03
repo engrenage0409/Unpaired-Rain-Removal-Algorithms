@@ -47,41 +47,43 @@ These two datasets are used to train the following models: CycleGAN, CUT, FastCU
 
 # Deep learning
 ## GAN variants
-Cyclegan [[PDF](https://junyanz.github.io/CycleGAN/)] [[Pytorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file)] [[Tensorflow
+* Cyclegan [[PDF](https://junyanz.github.io/CycleGAN/)] [[Pytorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file)] [[Tensorflow
 ](https://github.com/xiaowei-hu/CycleGAN-tensorflow)]
 
-DerainCylclegan[[PDF](https://arxiv.org/pdf/1912.07015)][[Code](https://github.com/OaDsis/DerainCycleGAN.git )] 
+* DerainCylclegan[[PDF](https://arxiv.org/pdf/1912.07015)][[Code](https://github.com/OaDsis/DerainCycleGAN.git )] 
 
-CUT[[PDF](https://arxiv.org/pdf/2007.15651)] [[Code](https://github.com/taesungp/contrastive-unpaired-translation.git )] 
+* CUT[[PDF](https://arxiv.org/pdf/2007.15651)] [[Code](https://github.com/taesungp/contrastive-unpaired-translation.git )] 
 
-DCLGAN[[PDF](https://arxiv.org/pdf/2104.07689)]  [[Code](https://github.com/JunlinHan/DCLGAN.git)] 
+* DCLGAN[[PDF](https://arxiv.org/pdf/2104.07689)]  [[Code](https://github.com/JunlinHan/DCLGAN.git)] 
 
-UNIT[[PDF](https://arxiv.org/pdf/1703.00848)]  [[Code](https://github.com/NVlabs/imaginaire.git)] 
+* UNIT[[PDF](https://arxiv.org/pdf/1703.00848)]  [[Code](https://github.com/NVlabs/imaginaire.git)] 
 
-MUNIT[[PDF](https://arxiv.org/pdf/1804.04732)]  [[Code](https://github.com/NVlabs/imaginaire.git)] 
+* MUNIT[[PDF](https://arxiv.org/pdf/1804.04732)]  [[Code](https://github.com/NVlabs/imaginaire.git)] 
 
-FUNIT[[PDF](https://nvlabs.github.io/FUNIT/)]  [[Code](https://github.com/NVlabs/imaginaire.git)] 
+* FUNIT[[PDF](https://nvlabs.github.io/FUNIT/)]  [[Code](https://github.com/NVlabs/imaginaire.git)] 
 
-Attentiongan[[PDF](https://arxiv.org/pdf/1911.11897)]  [[Code](https://github.com/Ha0Tang/AttentionGAN.git)] 
+* Attentiongan[[PDF](https://arxiv.org/pdf/1911.11897)]  [[Code](https://github.com/Ha0Tang/AttentionGAN.git)] 
 
-DiscoGAN[[PDF](https://arxiv.org/pdf/1703.05192)]  [[Code](https://github.com/SKTBrain/DiscoGAN.git)] 
+* DiscoGAN[[PDF](https://arxiv.org/pdf/1703.05192)]  [[Code](https://github.com/SKTBrain/DiscoGAN.git)] 
 
-DualGAN[[PDF](https://arxiv.org/pdf/1704.02510)]  [[Code](https://github.com/togheppi/DualGAN.git)] 
+* DualGAN[[PDF](https://arxiv.org/pdf/1704.02510)]  [[Code](https://github.com/togheppi/DualGAN.git)] 
 
-Unsupervised Deraining Where Contrastive Learning Meets Self-similarity [[PDF](https://arxiv.org/pdf/2203.11509)]  [[Code](https://github.com/yunguo224/NLCL.git)] 
+* Unsupervised Deraining Where Contrastive Learning Meets Self-similarity [[PDF](https://arxiv.org/pdf/2203.11509)]  [[Code](https://github.com/yunguo224/NLCL.git)] 
 
 ## Diffusion-Based Methods
-CycleGAN-Turbo[[PDF](https://arxiv.org/pdf/2403.12036)]  [[Code](https://github.com/GaParmar/img2img-turbo.git)] 
+* CycleGAN-Turbo[[PDF](https://arxiv.org/pdf/2403.12036)]  [[Code](https://github.com/GaParmar/img2img-turbo.git)] 
 
-Dual Diffusion Implicit Bridges [[PDF](https://openreview.net/forum?id=5HLoTvVGDe)]  [[Code](https://github.com/suxuann/ddib.git)] 
+* Dual Diffusion Implicit Bridges [[PDF](https://openreview.net/forum?id=5HLoTvVGDe)]  [[Code](https://github.com/suxuann/ddib.git)] 
 
-Cycle-diffusion[[PDF](https://arxiv.org/pdf/2210.05559)]  [[Code](https://github.com/ChenWu98/cycle-diffusion.git)] 
+* Cycle-diffusion[[PDF](https://arxiv.org/pdf/2210.05559)]  [[Code](https://github.com/ChenWu98/cycle-diffusion.git)] 
 
-UNIT-DDPM[[PDF](https://arxiv.org/pdf/2104.05358)]
+* UNIT-DDPM[[PDF](https://arxiv.org/pdf/2104.05358)]
 
-DDGAN[[PDF](https://arxiv.org/pdf/2112.07804)]  [[Code](https://github.com/NVlabs/denoising-diffusion-gan.git)]
+* DDGAN[[PDF](https://arxiv.org/pdf/2112.07804)]  [[Code](https://github.com/NVlabs/denoising-diffusion-gan.git)]
+
+* SYDIFF[[PDF](https://arxiv.org/pdf/2306.05178)]  [[Code](https://github.com/KAIST-Visual-AI-Group/SyncDiffusion)] 
 
 ## Other emerging models
-UNSB [[PDF](https://arxiv.org/pdf/2305.15086)]  [[Code](https://github.com/cyclomon/UNSB.git)] 
+* UNSB [[PDF](https://arxiv.org/pdf/2305.15086)]  [[Code](https://github.com/cyclomon/UNSB.git)] 
 
-SYDIFF[[PDF](https://arxiv.org/pdf/2306.05178)]  [[Code](https://github.com/KAIST-Visual-AI-Group/SyncDiffusion)] 
+* Unpaired Image-to-Image Translation with Shortest Path Regularization[[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Unpaired_Image-to-Image_Translation_With_Shortest_Path_Regularization_CVPR_2023_paper.pdf)]  [[Code](https://github.com/Mid-Push/santa.git)] 
