@@ -47,7 +47,7 @@ DDGAN[[PDF](https://arxiv.org/pdf/2112.07804)]  [[Code](https://github.com/NVlab
 ## Other emerging models
 UNSB [[PDF](https://arxiv.org/pdf/2305.15086)]  [[Code](https://github.com/cyclomon/UNSB.git)] 
 
-SYDIFF[[PDF](https://arxiv.org/pdf/2306.05178)]  [[Code][(](https://github.com/KAIST-Visual-AI-Group/SyncDiffusion))] 
+SYDIFF[[PDF](https://arxiv.org/pdf/2306.05178)]  [[Code][(https://github.com/KAIST-Visual-AI-Group/SyncDiffusion)] 
 
 # Pre-training model
 
