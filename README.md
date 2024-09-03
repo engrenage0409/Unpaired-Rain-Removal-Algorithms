@@ -4,6 +4,43 @@ Rain removal algorithms that do not rely on paired datasets are classified into 
 
 Model-driven method that are independent of datasets and deep learning method that use unpaired datasets. The specific classification is shown below.
 
+![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/1.png)
+
+Synthetic rain streaks removal
+
+![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/2.png)
+
+Raindrop removal
+
+![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/4.png)
+
+Real rain streaks remval
+
+![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/5.png)
+
+Video rain removal
+
+![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/6.png)
+
+Real-time rain removal
+
+![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/7.png)
+
+# Pre-training model
+
+Two Training dataset: 
+
+1.Mix rain streaks and raindrop dataset: 
+
+Includes 402 real raindrop images, 217 real rain streak images and 450 synthetic rain streak images with different rain sizes, totalling 1069 images and 1069 no rain images.
+
+2.Raindrops dataset:
+
+Includes 861 real raindrop images, and 861 no-rain images.
+
+These two datasets are used to train the following models: CycleGAN, CUT, FastCUT, DCLGAN, and CycleGAN-turbo. Model links are provided below.
+
+[Model](https://drive.google.com/drive/folders/1-jQz5AnNsVhR3aSf74chavBh_D7ZKwN4?usp=drive_link)
 
 
 # Model-driven
@@ -48,19 +85,3 @@ DDGAN[[PDF](https://arxiv.org/pdf/2112.07804)]  [[Code](https://github.com/NVlab
 UNSB [[PDF](https://arxiv.org/pdf/2305.15086)]  [[Code](https://github.com/cyclomon/UNSB.git)] 
 
 SYDIFF[[PDF](https://arxiv.org/pdf/2306.05178)]  [[Code](https://github.com/KAIST-Visual-AI-Group/SyncDiffusion)] 
-
-# Pre-training model
-
-Two Training dataset: 
-
-1.Mix rain streaks and raindrop dataset: 
-
-Includes 402 real raindrop images, 217 real rain streak images and 450 synthetic rain streak images with different rain sizes, totalling 1069 images and 1069 no rain images.
-
-2.Raindrops dataset:
-
-Includes 861 real raindrop images, and 861 no-rain images.
-
-These two datasets are used to train the following models: CycleGAN, CUT, FastCUT, DCLGAN, and CycleGAN-turbo. Model links are provided below.
-
-[Model](https://drive.google.com/drive/folders/1-jQz5AnNsVhR3aSf74chavBh_D7ZKwN4?usp=drive_link)
