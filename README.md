@@ -1,30 +1,59 @@
-# Unpaired-Rain-Removal-Algorithms
+# Benchmarking Unpaired Rain Removal Algorithms: From GANs to Diffusion Models
 
 Rain removal algorithms that do not rely on paired datasets are classified into two main categories: 
 
-Model-driven method that are independent of datasets and deep learning method that use unpaired datasets. The specific classification is shown below.
+Model-driven method that are independent of datasets and deep learning method that use unpaired datasets. 
+
+The specific classification is shown below.
 
 ![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/1.png)
 
-Synthetic rain streaks removal
+Synthetic rain streaks removal:
+<p align="center">
+    <img src="https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/2.png" alt="Synthetic rain streaks removal
+" width="1000">
+</p>
 
-![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/2.png)
+Raindrop removal:
+<p align="center">
+    <img src="https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/4.png" alt="Synthetic rain streaks removal
+" width="1000">
+</p>
 
-Raindrop removal
+Real rain streaks remval:
+<p align="center">
+    <img src="https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/5.png" alt="Synthetic rain streaks removal
+" width="1000">
+</p>
 
-![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/4.png)
+Video rain removal:
+<p align="center">
+    <img src="https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/6.png" alt="Synthetic rain streaks removal
+" width="600">
+</p>
 
-Real rain streaks remval
+Real-time rain removal:
+<p align="center">
+    <img src="https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/7.png" alt="Synthetic rain streaks removal
+" width="600">
+</p>
 
-![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/5.png)
+Quantitative metrics:
 
-Video rain removal
+<p align="center">
+    <img src="https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/table1.png" alt="Synthetic rain streaks removal
+" width="600">
+</p>
 
-![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/6.png)
+<p align="center">
+    <img src="https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/table2.png" alt="Synthetic rain streaks removal
+" width="600">
+</p>
 
-Real-time rain removal
-
-![image](https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/7.png)
+<p align="center">
+    <img src="https://github.com/engrenage0409/Unpaired-Rain-Removal-Algorithms/blob/main/Picture/table3.png" alt="Synthetic rain streaks removal
+" width="600">
+</p>
 
 # Pre-training model
 
@@ -32,18 +61,19 @@ Two Training dataset:
 
 1.Mix rain streaks and raindrop dataset: 
 
-Includes 402 real raindrop images, 217 real rain streak images and 450 synthetic rain streak images with different rain sizes, totalling 1069 images and 1069 no rain images.
+Includes 402 real raindrop images from a real raindrop dataset, 217 real rain streak images from a real rain streak dataset and 450 synthetic rain streak images with different rain sizes. Specifically, it contains 50 images from Rain100, 40 images from Rain800, 120 images from Rain1400, and 240 images from Rain12600. These images represent varying rain conditions including light rain, medium rain, and heavy rain for different scenes, with approximately two images of each rain condition type per scene. There are a total of 1069 images and 1069 corresponding rain-free images.
 
 2.Raindrops dataset:
 
 Includes 861 real raindrop images, and 861 no-rain images.
 
-These two datasets are used to train the following models: CycleGAN, CUT, FastCUT, DCLGAN, and CycleGAN-turbo. Model links are provided below.
+These two datasets are used to train the following models: CycleGAN, CUT, FastCUT, DCLGAN, and CycleGAN-turbo. Trained models links are provided below.
 
-[Model](https://drive.google.com/drive/folders/1-jQz5AnNsVhR3aSf74chavBh_D7ZKwN4?usp=drive_link)
+[Models](https://drive.google.com/drive/folders/1-jQz5AnNsVhR3aSf74chavBh_D7ZKwN4?usp=drive_link)
 
 
 # Model-driven
+Specific details can be found in the model-driven section of the following link. [Model-driven](https://github.com/hongwang01/Video-and-Single-Image-Deraining.git)
 
 # Deep learning
 ## GAN variants
