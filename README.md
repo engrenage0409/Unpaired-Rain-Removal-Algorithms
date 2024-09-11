@@ -55,9 +55,9 @@ Quantitative metrics:
 " width="600">
 </p>
 
-# Pre-training model
+# Datasets
 
-Two Training dataset: 
+We form two Training dataset: 
 
 1.Mix rain streaks and raindrop dataset: 
 
@@ -65,15 +65,29 @@ Includes 402 real raindrop images from a real raindrop dataset, 217 real rain st
 
 2.Raindrops dataset:
 
-Includes 861 real raindrop images, and 861 no-rain images.
+Includes 861 real raindrop images, and 861 no-rain images from real raindrop dataset .
 
-These two datasets are used to train the following models: CycleGAN, CUT, FastCUT, DCLGAN, and CycleGAN-turbo. Trained models links are provided below.
+Here is the specific download link:
 
-[Models](https://drive.google.com/drive/folders/1-jQz5AnNsVhR3aSf74chavBh_D7ZKwN4?usp=drive_link)
+Rain100[[Paper]](https://arxiv.org/pdf/1609.07769)[[Baidu Netdisk]](https://pan.baidu.com/s/1J0q6Mrno9aMCsaWZUtmbkg#list/path=%2F)
+
+Rain800[[Paper]](https://arxiv.org/pdf/1701.05957)[[Google Drive]](https://drive.google.com/file/d/1cMXWICiblTsRl1zjN8FizF5hXOpVOJz4/view)
+
+Rain1400, Rain12600[[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Fu_Removing_Rain_From_CVPR_2017_paper.pdf)[[Baidu Netdisk]](https://pan.baidu.com/s/1J0q6Mrno9aMCsaWZUtmbkg#list/path=%2F)
+
+Real rain streak[[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Single_Image_Deraining_A_Comprehensive_Benchmark_Analysis_CVPR_2019_paper.html)[[Access Code: npsy]](https://pan.baidu.com/share/init?surl=XctM1xT9KKq3JU_OXPJiLg)
+
+Real raindrop[[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Qian_Attentive_Generative_Adversarial_CVPR_2018_paper.pdf)[[Google Drive]](https://drive.google.com/open?id=1e7R76s6vwUJxILOcAsthgDLPSnOrQ49K)
+
+
+# Pre-training model
+Two datasets are used to train the following models: CycleGAN, CUT, FastCUT, DCLGAN, and CycleGAN-turbo, with each model being trained for 100 epochs, 200 epochs, and 400 epochs respectively. Trained models links are provided below.
+
+[[Models]](https://drive.google.com/drive/folders/1-jQz5AnNsVhR3aSf74chavBh_D7ZKwN4?usp=drive_link)
 
 
 # Model-driven
-Specific details can be found in the model-driven section of the following link. [Model-driven](https://github.com/hongwang01/Video-and-Single-Image-Deraining.git)
+Specific details can be found in the model-driven section of the following link. [[Model-driven]](https://github.com/hongwang01/Video-and-Single-Image-Deraining.git)
 
 # Deep learning
 ## GAN variants
