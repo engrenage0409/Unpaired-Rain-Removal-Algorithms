@@ -1,6 +1,10 @@
 # Benchmarking Unpaired Rain Removal Algorithms: From Generative Adversarial Network to Diffusion Models
 
-We systematically review current unpaired rain removal algorithms, summarise the papers and code links to these algorithms, and evaluate some of them on the basis of visual quality and quantitative metrics.
+I systematically review current unpaired rain removal algorithms and randomly selected images from synthetic datasets such as Rain100, Rain800, Rain1400, and Rain12600, as well as real rain streak and raindrop datasets, to form two unpaired datasets: a dataset containing only raindrops and a mixed dataset containing rain streaks and raindrops to evaluate some of these algorithms based on visual quality and quantitative metrics. 
+
+**I summarized links to the relevant papers and code for current unpaired rain removal algorithms, along with the datasets I used and the models I trained after different training epochs. Detailed links, visual comparisons, and quantitative metrics can be found in the README.md file.**
+
+---
 
 Rain removal algorithms that do not rely on paired datasets are classified into two main categories: 
 
@@ -71,6 +75,10 @@ Includes 861 real raindrop images, and 861 no-rain images from real raindrop dat
 
 Here is the specific download link:
 
+Mix rain streaks and raindrop dataset[[Google Drive]](https://drive.google.com/file/d/1PpskLaEGP-2kL4q8dd7nbjLZ03v16sIc/view?usp=drive_link)
+
+Raindrops dataset[[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Qian_Attentive_Generative_Adversarial_CVPR_2018_paper.pdf)[[Google Drive]](https://drive.google.com/open?id=1e7R76s6vwUJxILOcAsthgDLPSnOrQ49K)
+
 Rain100[[Paper]](https://arxiv.org/pdf/1609.07769)[[Baidu Netdisk]](https://pan.baidu.com/s/1J0q6Mrno9aMCsaWZUtmbkg#list/path=%2F)
 
 Rain800[[Paper]](https://arxiv.org/pdf/1701.05957)[[Google Drive]](https://drive.google.com/file/d/1cMXWICiblTsRl1zjN8FizF5hXOpVOJz4/view)
@@ -78,8 +86,6 @@ Rain800[[Paper]](https://arxiv.org/pdf/1701.05957)[[Google Drive]](https://drive
 Rain1400, Rain12600[[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Fu_Removing_Rain_From_CVPR_2017_paper.pdf)[[Baidu Netdisk]](https://pan.baidu.com/s/1J0q6Mrno9aMCsaWZUtmbkg#list/path=%2F)
 
 Real rain streak[[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Single_Image_Deraining_A_Comprehensive_Benchmark_Analysis_CVPR_2019_paper.html)[[Access Code: npsy]](https://pan.baidu.com/share/init?surl=XctM1xT9KKq3JU_OXPJiLg)
-
-Real raindrop[[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Qian_Attentive_Generative_Adversarial_CVPR_2018_paper.pdf)[[Google Drive]](https://drive.google.com/open?id=1e7R76s6vwUJxILOcAsthgDLPSnOrQ49K)
 
 
 # Pre-training model
