@@ -1,4 +1,6 @@
-# Benchmarking Unpaired Rain Removal Algorithms: From GANs to Diffusion Models
+# Benchmarking Unpaired Rain Removal Algorithms: From Generative Adversarial Network to Diffusion Models
+
+We systematically review current unpaired rain removal algorithms, summarise the papers and code links to these algorithms, and evaluate some of them on the basis of visual quality and quantitative metrics.
 
 Rain removal algorithms that do not rely on paired datasets are classified into two main categories: 
 
