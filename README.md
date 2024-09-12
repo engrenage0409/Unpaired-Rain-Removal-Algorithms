@@ -88,7 +88,7 @@ Rain1400, Rain12600[[Paper]](https://openaccess.thecvf.com/content_cvpr_2017/pap
 Real rain streak[[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Single_Image_Deraining_A_Comprehensive_Benchmark_Analysis_CVPR_2019_paper.html)[[Access Code: npsy]](https://pan.baidu.com/share/init?surl=XctM1xT9KKq3JU_OXPJiLg)
 
 
-# Pre-training model
+# Trained Models
 Two datasets are used to train the following models: CycleGAN, CUT, FastCUT, DCLGAN, and CycleGAN-turbo, with each model being trained for 100 epochs, 200 epochs, and 400 epochs respectively. Trained models links are provided below.
 
 [[Models]](https://drive.google.com/drive/folders/1-jQz5AnNsVhR3aSf74chavBh_D7ZKwN4?usp=drive_link)
@@ -97,8 +97,8 @@ Two datasets are used to train the following models: CycleGAN, CUT, FastCUT, DCL
 # Model-driven
 Specific details can be found in the model-driven section of the following link. [[Model-driven]](https://github.com/hongwang01/Video-and-Single-Image-Deraining.git)
 
-# Deep learning
-## GAN variants
+# Deep Learning
+## GAN Variants
 * Cyclegan [[PDF](https://junyanz.github.io/CycleGAN/)] [[Pytorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix?tab=readme-ov-file)] [[Tensorflow
 ](https://github.com/xiaowei-hu/CycleGAN-tensorflow)]
 
@@ -135,7 +135,7 @@ Specific details can be found in the model-driven section of the following link.
 
 * SYDIFF[[PDF](https://arxiv.org/pdf/2306.05178)]  [[Code](https://github.com/KAIST-Visual-AI-Group/SyncDiffusion)] 
 
-## Other emerging models
+## Other Emerging Models
 * UNSB [[PDF](https://arxiv.org/pdf/2305.15086)]  [[Code](https://github.com/cyclomon/UNSB.git)] 
 
 * Unpaired Image-to-Image Translation with Shortest Path Regularization[[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Unpaired_Image-to-Image_Translation_With_Shortest_Path_Regularization_CVPR_2023_paper.pdf)]  [[Code](https://github.com/Mid-Push/santa.git)] 
