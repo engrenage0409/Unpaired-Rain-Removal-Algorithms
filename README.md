@@ -4,6 +4,18 @@ I systematically review current unpaired rain removal algorithms and randomly se
 
 **I summarized links to the relevant papers and code for current unpaired rain removal algorithms, along with the datasets I used and the models I trained after different training epochs. Detailed links, visual comparisons, and quantitative metrics can be found in the README.md file.**
 
+
+## Project documentation
+
+The project documentation has been expanded to separate the original MSc dissertation benchmark from post-graduation architecture refinements and future video-deraining research.
+
+- [Complete technical documentation](docs/PROJECT_TECHNICAL_DOCUMENTATION.md) — dataset construction, model taxonomy and architecture summaries, CycleGAN and CycleGAN-Turbo modifications, loss/training strategies, dissertation benchmark tables, frame-wise video validation, limitations and future research.
+- [Interview preparation and technical Q&A](docs/INTERVIEW_PREPARATION.md) — detailed questions, suggested answers, follow-up topics and implementation details to verify.
+- [Bilingual resume project entries](docs/RESUME_VERSIONS.md) — Chinese/English CV and general algorithm-engineer versions, plus role-specific usage notes.
+
+**Scope and reproducibility note:** the five-model quantitative benchmark in the dissertation covers CycleGAN, CUT, FastCUT, DCLGAN and CycleGAN-Turbo. Stable Diffusion and UNIT-DDPM are recorded as additional experiments reported by the researcher, not as rows in the dissertation benchmark tables. Post-graduation metric changes are approximate recollections pending log verification. The current repository contains documentation, visual assets and links to external datasets/model weights; it does not currently contain the training/inference source code.
+
+
 ---
 
 Rain removal algorithms that do not rely on paired datasets are classified into two main categories: 
